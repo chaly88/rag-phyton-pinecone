@@ -8,9 +8,9 @@ from langchain.embeddings import HuggingFaceEmbeddings
 from pinecone import Pinecone as Pinecon2
 
 INDEX_NAME = 'test'
-os.environ['PINECONE_API_KEY'] = 'a737e149-2870-4e00-b126-cb06b1f7d7e2'
+os.environ['PINECONE_API_KEY'] = ''
 
-pc = Pinecon2(api_key="a737e149-2870-4e00-b126-cb06b1f7d7e2")
+pc = Pinecon2(api_key="")
 
 def load_name_files(path):
 

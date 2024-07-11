@@ -11,7 +11,7 @@ from langchain.callbacks import get_openai_callback
 import google.generativeai as genai
 from langchain_google_genai import ChatGoogleGenerativeAI
 
-GOOGLE_API_KEY = os.environ['GOOGLE_API_KEY'] = 'AIzaSyAP_Shl0W8eJ9wgfeNd42mfu9HdcZwt6Yw'
+GOOGLE_API_KEY = os.environ['GOOGLE_API_KEY'] = ''
 genai.configure(api_key = GOOGLE_API_KEY)
 
 
